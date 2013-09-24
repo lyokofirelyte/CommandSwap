@@ -1,0 +1,7 @@
+#####################################
+## COMMANDSWAP GLOBAL CONFIG SHEET ##
+#####################################
+
+NoOverride: false
+DebugMode: false
+LogCommands: true

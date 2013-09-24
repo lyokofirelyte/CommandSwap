@@ -1,0 +1,21 @@
+name: CommandSwap
+prefix: CS
+main: com.github.lyokofirelyte.CommandSwap.CSMain
+version: 1
+
+commands:
+   cswap:
+      description: CS General Command
+      usage: /cswap
+      permission: cs.use
+      permission-message: Nope.png
+permissions:
+    cs.manage:
+        description: Manage the plugin, such as reloading and saving.
+        default: op
+    cs.admin:
+        description: Block and unblock aliases.
+        default: op
+    cs.console:
+        description: Use the %c placeholder to execute the command as console.
+        default: op
